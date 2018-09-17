@@ -1,0 +1,27 @@
+body{
+	padding: 10px;
+}
+h1 {
+	text-align: center;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+h1 span{
+	visibility: hidden;
+}
+.card img{
+	width: 100%;
+}
+.card{
+	margin-bottom: 30px;
+}
+.card h2{
+	margin: 0;
+	color: #4a4a4a;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+}

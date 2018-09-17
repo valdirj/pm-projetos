@@ -1,0 +1,35 @@
+header {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 1px solid #eaeaea;
+}
+header h1 {
+	font-style: 18px;
+	font-family: 'muliextrabold';
+	color: #5e5f5f;
+}
+header span {
+	color: #4a4a4a;
+	opacity: 0.5;
+	margin-left: 20px;
+}
+header span strong {
+	font-family: 'muliextrabold';
+}
+header div {
+	display: flex;
+	align-items: center;    
+}
+header a {
+	background-image: url(../imagens/fechar.png);
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 17px;
+}
+header a span {
+	visibility: hidden;
+}

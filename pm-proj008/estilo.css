@@ -1,0 +1,163 @@
+body {
+	display: flex;
+	background-color: #f5f5f5;
+	font-family: Arial, sans-serif;
+}
+aside {
+	width: 200px;
+	background-color: #242536;
+}
+aside h1 {
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 60px;
+	background-position: center center;
+	background-color: #151524;
+}
+aside h1 span {
+	visibility: hidden;
+}
+aside ul {
+	margin: 0;
+	padding: 0;
+}
+aside li {
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+aside li:hover {
+	background-color: #151524;
+	border-left: 3px solid #ffb946;
+	cursor: pointer;
+	padding-left: 12px;
+}
+aside li small {
+	color: rgba(255, 255, 255, 0.6);
+	float: right;
+	margin-right: 15px;
+}
+aside li a {
+	color: #fff;
+	text-decoration: none;
+}
+aside li i {
+	margin-right: 5px;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+}
+section#principal {
+	width: 100%;
+}
+section#principal header {
+	height: 60px;
+	background-color: #242536;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+section#principal .modulo .abas {
+	height: 60px;
+	background-color: #fff;
+	border-bottom: 1px solid #e6e6e6;
+}
+section#principal .modulo .abas ul {
+	margin: 0;
+	padding: 0;
+	margin-left: 50px;
+}
+section#principal .modulo .abas li {
+	display: inline-block;
+	line-height: 60px;
+}
+section#principal .modulo .abas li a {
+	margin-right: 40px;
+	text-decoration: none;
+	color: #0f0f0f;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+}
+section#principal .modulo .abas li a:hover {
+	color: #ffb946;
+	box-shadow: 0px -3px 0px #ffb946 inset;
+}
+section#principal .modulo .container {
+	height: 300px;
+	padding: 20px;
+}
+section#principal .modulo .container .canvas {
+	background-color: #fff;
+	border: 1px solid #e6e6e6;
+	border-radius: 4px;
+	padding: 20px;
+}
+form ul {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+}
+form li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+form h2 {
+	font-size: 20px;
+	color: 161616;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;		
+}
+form small{
+	display: block;
+	width: 400px;
+	margin-top: 5px;
+}
+form input, form select {
+	width: 400px;
+	height: 20px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+}
+form select {
+	color: #c5c5c5;
+}
+::-webkit-input-placeholder {
+	color: #c5c5c5;
+}
+form li.ok {
+	background-image: url(ok.png);
+	background-repeat: no-repeat;
+	background-position: top 0px right;
+	width: 430px;
+}
+form button {
+	width: 400px;
+	height: 25px;
+	font-size: 16px;
+	background-color: #3aca60;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 4px;
+}
+.confimacoes li {
+	font-size: 14px;
+	display: flex;
+	width: 400px;
+}
+.confirmacoes input {
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+}
+	

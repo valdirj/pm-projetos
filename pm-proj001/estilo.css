@@ -1,0 +1,26 @@
+li {
+	list-style-type: none;
+	background-color: #9b59b6;
+	color: #ffff;
+	margin-bottom: 12px; 
+	padding: 12px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #ecf0f1;
+	padding: 12px;
+	font-family: Arial;
+	font-size: 18PX;
+}
+h1,h2 {
+	text-align: center;
+}
+H2 {
+	text-transform: uppercase;
+	color: #666;
+	font-size: 16px;
+	margin-bottom: 12px;
+}

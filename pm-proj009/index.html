@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Projeto 009</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="fontes/stylesheet.css">
+	<link rel="stylesheet" href="css/principal.css">	
+</head>
+<body>
+	<div class="checkout">
+		<header>
+			<div>
+				<h1>Checkout</h1>
+				<span>Shipping ><strong>Payment Method</strong>> Confirmation</span>			
+			</div>
+			<a href="#"><span>Fechar</span></a>
+		</header>
+		<main>
+			<div class="cartao">
+				<div class="wallet">
+				<h2>Wallet</h2>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="imagens/visa.png">
+							<small>Ending in 2222</small>		
+						</a>				
+					</li>					
+					<li>
+						<a href="#">
+							<img src="imagens/master.png">
+							<small>Ending in 2222</small>		
+						</a>				
+					</li>					
+					<li>
+						<a href="#">
+							<img src="imagens/disco.png"><small>Ending in 2111</small>	
+						</a>				
+					</li>					
+				</ul>
+				</div>					
+			<div class="newcard">
+					<form action="">
+						<fieldset>
+							<legend>New Card</legend>
+							<input type="text" placeholder="Name on Card">
+							<input type="text" placeholder="111-111-111-111">
+							<input type="text" class="date" placeholder="MM/YY">
+							<input type="text" class="cvc" placeholder="CVC">							
+							
+							<label for="addWallet">
+								<input type="checkbox" name="addWallet">
+							    add card to wallet		
+							</label>	
+							<button>Continue</button>
+						</fieldset>			
+					</form>					
+				</div>	
+			</div>
+			<div class="resumos">
+				<ul class="produtos">
+					<li>
+					<img src="imagens/bota.png">
+					<div class="detalhes">	
+						<h3>The Chelsea Boot</h3>
+						<small>Black</small>
+						<span>Quantity: 1</span>
+					</div>	
+					<span class="preco">$235</span>							
+					</li>
+					<li>
+					<img src="imagens/mochi.png">	
+					<div class="detalhes">
+						<h3>The Twill Snap Backpack</h3>
+						<small>Reverse Denin + Brown leather</small>
+						<span>Quantity: 1</span>
+					</div>	
+					<span class="preco">$65</span>
+					</li>
+					<li>
+					<img src="imagens/bolsa.png">
+					<divi class="detalhes">
+						<h3>The Twill Zip Tote</h3>
+						<small>Reverse Denin + Black leather</small>
+						<span>Quantity: 1</span>
+					</divi>	
+					<span class="preco">$48</span>							
+					</li>
+					<li>
+					<img src="imagens/a.png">	
+					<div class="detalhes">
+						<h3>The Twill Zip Tote</h3>
+						<small>Reverse Denin + Black leather</small>
+						<span>Quantity: 1</span>
+					</div>	
+					<span class="preco">$48</span>							
+					</li>					
+				</ul>
+				<table>
+					<tbody>
+						<tr>
+							<th scope="row">Subtotal</th>
+							<td>$398</td>
+						</tr>
+						<tr>
+							<th scope="row">Shipping</th>
+							<td>Free</td>
+						</tr>
+						<tr>
+							<th scope="row">Taxes</th>
+							<td>12.12</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td>$410.12</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</main>
+	</div>	
+</body>
+</html>
